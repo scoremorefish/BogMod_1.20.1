@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scoremoresalmon.fromthebog.FromTheBog;
+import net.scoremoresalmon.fromthebog.item.custom.WumpusItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS=
@@ -18,7 +19,10 @@ public class ModItems {
     public static final RegistryObject<Item> EVILMATTER = ITEMS.register("evilmatter",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CORRUPTION = ITEMS.register("corruption",
-            () -> new Item(new Item.Properties()));
+            () -> new WumpusItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> WUMPUS = ITEMS.register("wumpus",
+            () -> new WumpusItem(new Item.Properties()));
 
     //public static final RegistryObject<Item> BLANK_DISC = ITEMS.register("blank_disc",
     //        () -> new Item(new Item.Properties()));

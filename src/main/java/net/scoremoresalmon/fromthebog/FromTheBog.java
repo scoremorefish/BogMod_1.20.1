@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.scoremoresalmon.fromthebog.block.ModBlocks;
 import net.scoremoresalmon.fromthebog.item.ModCreativeModeTabs;
 import net.scoremoresalmon.fromthebog.item.ModItems;
 import org.slf4j.Logger;
@@ -32,6 +33,7 @@ public class FromTheBog
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

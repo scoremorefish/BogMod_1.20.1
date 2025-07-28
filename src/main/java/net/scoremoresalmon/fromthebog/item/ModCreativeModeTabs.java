@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.scoremoresalmon.fromthebog.FromTheBog;
+import net.scoremoresalmon.fromthebog.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -21,6 +22,10 @@ public class ModCreativeModeTabs {
                         //Put Items that go in the creative tab here
                         pOutput.accept(ModItems.EVILMATTER.get());
                         pOutput.accept(ModItems.CORRUPTION.get());
+
+                        pOutput.accept(ModItems.WUMPUS.get());
+
+                        pOutput.accept(ModBlocks.CORRUPTION_BLOCK.get());
 
 
                     })
