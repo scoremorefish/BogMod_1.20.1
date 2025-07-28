@@ -1,9 +1,16 @@
 {
   "item.fromthebog.evilmatter": "Evil Matter",
   "item.fromthebog.corruption": "Corruption",
+  "item.fromthebog.evil_template": "Evil Template",
+
+  "item.fromthebog.bogling_flesh": "Bogling Flesh",
+
+  "item.fromthebog.blank_disc": "Blank Disc",
+  "item.fromthebog.chipi_chapa_disc": "Chipi Chapa Disc",
+  "item.fromthebog.ethan_chipi_chapa_disc": "Ethan Chipi Chapa Disc",
 
   "item.fromthebog.wumpus": "Wumpus",
-  "item.fromthebog.blank_disc": "Blank Disc",
+  "item.fromthebog.metal_wumpus": "Metal Wumpus",
 
   "block.fromthebog.corruption_block": "Corruption Block",
 

@@ -18,8 +18,17 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.EVILMATTER);
-        simpleItem(ModItems.WUMPUS);
         simpleItem(ModItems.CORRUPTION);
+        simpleItem(ModItems.EVIL_TEMPLATE);
+
+        simpleItem(ModItems.BOGLING_FLESH);
+
+        simpleItem(ModItems.BLANK_DISC);
+        simpleItem(ModItems.CHIPI_CHAPA_DISC);
+        simpleItem(ModItems.ETHAN_CHIPI_CHAPA_DISC);
+
+        simpleItem(ModItems.WUMPUS);
+        simpleItem(ModItems.METAL_WUMPUS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

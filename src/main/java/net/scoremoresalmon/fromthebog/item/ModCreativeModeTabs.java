@@ -22,8 +22,16 @@ public class ModCreativeModeTabs {
                         //Put Items that go in the creative tab here
                         pOutput.accept(ModItems.EVILMATTER.get());
                         pOutput.accept(ModItems.CORRUPTION.get());
+                        pOutput.accept(ModItems.EVIL_TEMPLATE.get());
+
+                        pOutput.accept(ModItems.BOGLING_FLESH.get());
+
+                        pOutput.accept(ModItems.BLANK_DISC.get());
+                        pOutput.accept(ModItems.CHIPI_CHAPA_DISC.get());
+                        pOutput.accept(ModItems.ETHAN_CHIPI_CHAPA_DISC.get());
 
                         pOutput.accept(ModItems.WUMPUS.get());
+                        pOutput.accept(ModItems.METAL_WUMPUS.get());
 
                         pOutput.accept(ModBlocks.CORRUPTION_BLOCK.get());
 
