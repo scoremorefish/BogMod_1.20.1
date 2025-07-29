@@ -6,11 +6,19 @@
   "item.fromthebog.bogling_flesh": "Bogling Flesh",
 
   "item.fromthebog.blank_disc": "Blank Disc",
+
   "item.fromthebog.chipi_chapa_disc": "Chipi Chapa Disc",
+  "item.fromthebog.chipi_chapa_disc.desc": "temp",
+
   "item.fromthebog.ethan_chipi_chapa_disc": "Ethan Chipi Chapa Disc",
 
   "item.fromthebog.wumpus": "Wumpus",
   "item.fromthebog.metal_wumpus": "Metal Wumpus",
+
+  "item.fromthebog.evil_helmet": "Evil Helmet",
+  "item.fromthebog.evil_chestplate": "Evil Chestplate",
+  "item.fromthebog.evil_leggings": "Evil Leggings",
+  "item.fromthebog.evil_boots": "Evil Boots",
 
   "block.fromthebog.corruption_block": "Corruption Block",
 

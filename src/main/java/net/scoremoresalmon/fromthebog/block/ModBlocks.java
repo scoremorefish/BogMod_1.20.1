@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scoremoresalmon.fromthebog.FromTheBog;
 import net.scoremoresalmon.fromthebog.item.ModItems;
+import net.scoremoresalmon.fromthebog.sound.ModSounds;
 
 import java.util.function.Supplier;
 
@@ -21,7 +22,7 @@ public class ModBlocks {
 
     //Add new blocks here
     public static final RegistryObject<Block> CORRUPTION_BLOCK = registerBlock("corruption_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(ModSounds.CORRUPTION_BLOCK_SOUNDS)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

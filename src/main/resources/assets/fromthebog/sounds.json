@@ -1,0 +1,19 @@
+{
+  "chipi_chapa": {
+    "sounds": [
+      {
+        "name": "chipi_chapa",
+        "stream": true
+      }
+    ]
+  },
+
+  "ethan_chipi_chapa": {
+    "sounds": [
+      {
+        "name": "ethan_chipi_chapa",
+        "stream": true
+      }
+    ]
+  }
+}

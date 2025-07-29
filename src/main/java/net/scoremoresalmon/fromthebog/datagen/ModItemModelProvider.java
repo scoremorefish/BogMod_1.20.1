@@ -27,6 +27,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CHIPI_CHAPA_DISC);
         simpleItem(ModItems.ETHAN_CHIPI_CHAPA_DISC);
 
+        simpleItem(ModItems.EVIL_HELMET);
+        simpleItem(ModItems.EVIL_CHESTPLATE);
+        simpleItem(ModItems.EVIL_LEGGINGS);
+        simpleItem(ModItems.EVIL_BOOTS);
+
         simpleItem(ModItems.WUMPUS);
         simpleItem(ModItems.METAL_WUMPUS);
     }

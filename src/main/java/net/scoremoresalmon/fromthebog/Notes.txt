@@ -1,31 +1,18 @@
 TO-DO:
 1. Change Creative Mode Icon to the corruption block texture
 2. Add "grass" block
+3. Make each separate armor piece apply a different status effect in the future
+
+
+WARNING:
+SOUNDS ARE NOT WORKING FIGURE TS OUT
 
 Block Bench to make models
 
 Review of history
 
-Wumpus broadcasts(if it doesnt break) a discord ping across the world with a long cooldown
-Helmet - Gives night vision
-Chestplate - Gives Haste 2
-Leggings - Gives jump boost 2
-Boots - Gives Speed 2
+Wumpus broadcasts(if it doesn't break, use stero not mono with ogg file) a discord ping across the world with a long cooldown
 The Ethan Chipi Chapa Music Disc has a rainbow name
 Block of corruption has a red randomgen name, with a red note "From the Bog!"
-Bogling Flesh - Gives same saturation as chicken - gives regeneration 1 for 5 seconds and slowness 1 for 5 seconds
-Bogman armor template - duplicated similar to netherite template but with pure evil replacing the diamonds and corruprion block at the top replacing the netherrack block
-
-Recipes:
-
-C = corruption
-I = Iron Ingot
-W = Wumpus
-
-Block of Corruption [
-CIC
-IWI
-CIC
-]
 
 

@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.scoremoresalmon.fromthebog.block.ModBlocks;
 import net.scoremoresalmon.fromthebog.item.ModCreativeModeTabs;
 import net.scoremoresalmon.fromthebog.item.ModItems;
+import net.scoremoresalmon.fromthebog.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -35,6 +36,8 @@ public class FromTheBog
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModSounds.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -48,10 +51,10 @@ public class FromTheBog
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.EVILMATTER);
-            event.accept(ModItems.CORRUPTION);
-        }
+        //if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            //event.accept(ModItems.EVILMATTER);
+            //event.accept(ModItems.CORRUPTION);
+        //}
 
         //if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 

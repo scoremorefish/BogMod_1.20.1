@@ -33,6 +33,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.WUMPUS.get());
                         pOutput.accept(ModItems.METAL_WUMPUS.get());
 
+                        pOutput.accept(ModItems.EVIL_HELMET.get());
+                        pOutput.accept(ModItems.EVIL_CHESTPLATE.get());
+                        pOutput.accept(ModItems.EVIL_LEGGINGS.get());
+                        pOutput.accept(ModItems.EVIL_BOOTS.get());
+
                         pOutput.accept(ModBlocks.CORRUPTION_BLOCK.get());
 
 
